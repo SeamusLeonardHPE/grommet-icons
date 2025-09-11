@@ -1,0 +1,13 @@
+import React, { forwardRef } from 'react';
+
+import { StyledIcon } from '../StyledIcon';
+
+const Left = forwardRef((props, ref) => (
+  <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="Left" {...props}>
+    <path d="M16.2931 1.29308C16.6836 0.902552 17.3166 0.902552 17.7071 1.29308C18.0975 1.68361 18.0976 2.31666 17.7071 2.70714L8.41417 12.0001L17.7071 21.2931C18.0975 21.6836 18.0976 22.3167 17.7071 22.7071C17.3167 23.0976 16.6836 23.0975 16.2931 22.7071L6.29308 12.7071C5.90255 12.3166 5.90255 11.6836 6.29308 11.2931L16.2931 1.29308Z" fill="#555555" />
+  </StyledIcon>
+));
+
+Left.displayName = 'Left';
+
+export { Left };

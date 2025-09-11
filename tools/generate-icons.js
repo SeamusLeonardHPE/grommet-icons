@@ -4,7 +4,7 @@ import del from 'del';
 import fs from 'fs';
 import path from 'path';
 import xml2js from 'xml2js';
-import { optimize } from 'svgo';
+// import { optimize } from 'svgo';
 
 const inputSVGFolder = path.resolve('public/img');
 const outputReactIconFolder = path.resolve('src/js/icons');
@@ -68,24 +68,24 @@ ${pascalCase(fileName)}.displayName = '${pascalCase(fileName)}';
 export { ${pascalCase(fileName)} };
 `;
 }
-const optimizeSvg = (svg) => {
-  const optimized = optimize(svg, {
-    multipass: true,
-    plugins: [
-      {
-        name: 'preset-default',
-        params: {
-          overrides: {
-            // viewBox is required to resize SVGs with CSS.
-            // @see https://github.com/svg/svgo/issues/1128
-            removeViewBox: false,
-          },
-        },
-      },
-    ],
-  });
-  return optimized.data;
-};
+// const optimizeSvg = (svg) => {
+//   const optimized = optimize(svg, {
+//     multipass: true,
+//     plugins: [
+//       {
+//         name: 'preset-default',
+//         params: {
+//           overrides: {
+//             // viewBox is required to resize SVGs with CSS.
+//             // @see https://github.com/svg/svgo/issues/1128
+//             removeViewBox: false,
+//           },
+//         },
+//       },
+//     ],
+//   });
+//   return optimized.data;
+// };
 
 function createReactIcon(fileName, content) {
   return new Promise((resolve) => {
@@ -99,7 +99,7 @@ function createReactIcon(fileName, content) {
     parser.addListener('end', (result) => {
       resolve(buildIcon(fileName, result.svg.$$, result.svg.$.viewBox));
     });
-    parser.parseString(optimizeSvg(content));
+    parser.parseString(content);
   });
 }
 
