@@ -53,7 +53,6 @@ exports[`metadata 1`] = `
   ],
   "Add": [
     "create",
-    "core",
     "increase",
     "increment",
     "new",
@@ -93,7 +92,7 @@ exports[`metadata 1`] = `
   ],
   "Alert": [
     "alert",
-    "status",
+    "signal",
     "validation",
   ],
   "Analytics": [
@@ -387,7 +386,6 @@ exports[`metadata 1`] = `
   ],
   "CaretDown": [
     "arrows",
-    "core",
     "direction",
     "down",
     "expand",
@@ -395,7 +393,6 @@ exports[`metadata 1`] = `
   ],
   "CaretLeft": [
     "arrows",
-    "core",
     "direction",
     "rewind",
     "left",
@@ -403,7 +400,6 @@ exports[`metadata 1`] = `
   ],
   "CaretRight": [
     "arrows",
-    "core",
     "direction",
     "forward",
     "right",
@@ -412,7 +408,6 @@ exports[`metadata 1`] = `
   "CaretUp": [
     "arrows",
     "collapse",
-    "core",
     "direction",
     "up",
     "caret",
@@ -434,7 +429,6 @@ exports[`metadata 1`] = `
   ],
   "Certificate": [
     "license",
-    "miscellaneous",
     "certificate",
     "credential",
     "award",
@@ -491,7 +485,6 @@ exports[`metadata 1`] = `
     "bubble",
     "conversation",
     "communication",
-    "core",
     "help",
     "messages",
   ],
@@ -499,14 +492,12 @@ exports[`metadata 1`] = `
     "bubble",
     "conversation",
     "communication",
-    "core",
     "help",
     "messages",
   ],
   "Checkmark": [
     "accept",
     "agree",
-    "core",
     "done",
     "good",
     "ok",
@@ -540,7 +531,6 @@ exports[`metadata 1`] = `
     "document",
   ],
   "Clock": [
-    "core",
     "date",
     "hands",
     "hour",
@@ -555,7 +545,6 @@ exports[`metadata 1`] = `
   ],
   "Close": [
     "cancel",
-    "core",
     "delete",
     "escape",
     "exit",
@@ -691,7 +680,6 @@ exports[`metadata 1`] = `
     "compliance",
   ],
   "Configure": [
-    "core",
     "preferences",
     "setting",
     "settings",
@@ -705,7 +693,6 @@ exports[`metadata 1`] = `
     "connection",
   ],
   "Console": [
-    "core",
     "debug",
     "log",
     "console",
@@ -1160,7 +1147,6 @@ exports[`metadata 1`] = `
   "Download": [
     "arrows",
     "cloud",
-    "core",
     "import",
     "get",
     "navigation",
@@ -1184,7 +1170,6 @@ exports[`metadata 1`] = `
   ],
   "Edit": [
     "change",
-    "core",
     "draw",
     "modify",
     "pen",
@@ -1254,7 +1239,6 @@ exports[`metadata 1`] = `
     "favorite",
   ],
   "Filter": [
-    "core",
     "funnel",
     "refine",
     "sort",
@@ -1284,10 +1268,7 @@ exports[`metadata 1`] = `
     "wireless",
   ],
   "Flag": [
-    "core",
     "nation",
-    "warn",
-    "warning",
     "flag",
   ],
   "Flows": [
@@ -1369,8 +1350,6 @@ exports[`metadata 1`] = `
     "access",
   ],
   "Gem": [
-    "miscellaneous",
-    "shape",
     "gem",
     "diamond",
     "jewel",
@@ -1585,7 +1564,6 @@ exports[`metadata 1`] = `
     "arrows",
     "back",
     "backward",
-    "core",
     "direction",
     "left",
   ],
@@ -1825,13 +1803,11 @@ exports[`metadata 1`] = `
   ],
   "More": [
     "actions",
-    "core",
     "ellipses",
     "more",
   ],
   "MoreVertical": [
     "actions",
-    "core",
     "ellipses",
     "more",
     "vertical",
@@ -1933,7 +1909,6 @@ exports[`metadata 1`] = `
     "alarm",
     "alert",
     "bell",
-    "core",
     "messages",
     "notify",
   ],
@@ -2108,7 +2083,6 @@ exports[`metadata 1`] = `
     "bar",
     "progress",
     "loading",
-    "status",
   ],
   "Projects": [
     "Project",
@@ -2129,7 +2103,6 @@ exports[`metadata 1`] = `
   "Refresh": [
     "arrows",
     "backup",
-    "core",
     "reload",
     "repeat",
     "pull",
@@ -2206,7 +2179,6 @@ exports[`metadata 1`] = `
   ],
   "Right": [
     "arrows",
-    "core",
     "direction",
     "forward",
     "next",
@@ -2300,11 +2272,11 @@ exports[`metadata 1`] = `
     "scorecard",
   ],
   "Script": [
-    "miscellaneous",
+    "text",
+    "typescript",
     "script",
   ],
   "Search": [
-    "core",
     "find",
     "lookup",
     "magnifier",
@@ -2528,88 +2500,36 @@ exports[`metadata 1`] = `
     "solid",
   ],
   "StatusCritical": [
-    "error",
-    "halt",
-    "stop",
-    "warning",
-    "critical",
-    "status",
-  ],
-  "StatusCriticalSystem": [
     "status",
     "critical",
     "state",
     "indicator",
   ],
   "StatusDisabled": [
-    "faq",
-    "help",
-    "hint",
-    "information",
-    "info",
     "status",
-  ],
-  "StatusDisabledSystem": [
-    "faq",
-    "help",
-    "hint",
-    "information",
-    "info",
-    "status",
-  ],
-  "StatusGood": [
-    "accept",
-    "check",
-    "ok",
-    "status",
+    "disabled",
     "state",
     "indicator",
   ],
-  "StatusGoodSystem": [
+  "StatusGood": [
     "status",
-    "ok",
-    "normal",
+    "good",
     "state",
     "indicator",
   ],
   "StatusInfo": [
-    "faq",
-    "help",
-    "hint",
-    "information",
-    "info",
     "status",
-  ],
-  "StatusInfoSystem": [
-    "faq",
-    "help",
-    "hint",
-    "information",
     "info",
-    "status",
+    "state",
+    "indicator",
   ],
   "StatusUnknown": [
-    "hint",
-    "information",
-    "service",
-    "support",
-    "question",
-    "status",
-  ],
-  "StatusUnknownSystem": [
     "status",
     "unknown",
     "state",
     "indicator",
   ],
   "StatusWarning": [
-    "warning",
-    "exclamation",
-    "status",
-    "state",
-    "indicator",
-  ],
-  "StatusWarningSystem": [
     "status",
     "warning",
     "state",
@@ -2648,7 +2568,6 @@ exports[`metadata 1`] = `
     "street",
   ],
   "Subtract": [
-    "core",
     "decrement",
     "minus",
     "reduce",
@@ -2866,7 +2785,6 @@ exports[`metadata 1`] = `
   "Trash": [
     "bin",
     "clear",
-    "core",
     "delete",
     "eliminate",
     "garbage",
@@ -2945,7 +2863,6 @@ exports[`metadata 1`] = `
   "Update": [
     "arrows",
     "change",
-    "core",
     "reload",
     "refresh",
     "update",
@@ -2960,7 +2877,6 @@ exports[`metadata 1`] = `
     "attach",
     "attachment",
     "cloud",
-    "core",
     "export",
   ],
   "UsbKey": [
@@ -2974,7 +2890,6 @@ exports[`metadata 1`] = `
   "User": [
     "account",
     "avatar",
-    "core",
     "person",
     "profile",
     "male",
@@ -3006,7 +2921,6 @@ exports[`metadata 1`] = `
   "UserFemale": [
     "account",
     "avatar",
-    "core",
     "person",
     "profile",
     "woman",

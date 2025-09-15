@@ -495,10 +495,6 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DisabledOutline": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Disc": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -1443,15 +1439,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusCriticalStrong": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "StatusDisabled": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "StatusDisabledStrong": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1459,15 +1447,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusGoodStrong": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "StatusInfo": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "StatusInfoStrong": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1475,15 +1455,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusUnknownStrong": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "StatusWarning": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "StatusWarningStrong": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
