@@ -98,6 +98,7 @@ export * from './Compare';
 export * from './Compass';
 export * from './Compliance';
 export * from './Configure';
+export * from './Connect';
 export * from './Connectivity';
 export * from './Console';
 export * from './Contact';

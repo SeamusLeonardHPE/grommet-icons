@@ -97,6 +97,7 @@ export default {
   Compass : ['direction', 'location', 'map', 'navigation', 'tools', 'compass'],
   Compliance : ['checklist', 'clipboard', 'mark', 'protection', 'compliance'],
   Configure : [ 'preferences', 'setting', 'settings', 'tools', 'wrench'],
+  Connect : ['connect', 'plug', 'action'],
   Connectivity : ['network', 'plug', 'connectivity', 'connection'],
   Console : [ 'debug', 'log', 'console'],
   Contact : ['avatar', 'icommunication', 'phone', 'profile', 'contact'],

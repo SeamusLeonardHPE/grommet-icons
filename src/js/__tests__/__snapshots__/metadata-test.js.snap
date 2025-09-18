@@ -686,6 +686,11 @@ exports[`metadata 1`] = `
     "tools",
     "wrench",
   ],
+  "Connect": [
+    "connect",
+    "plug",
+    "action",
+  ],
   "Connectivity": [
     "network",
     "plug",

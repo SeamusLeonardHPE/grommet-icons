@@ -108,6 +108,7 @@ export declare const Compare: Icon;
 export declare const Compass: Icon;
 export declare const Compliance: Icon;
 export declare const Configure: Icon;
+export declare const Connect: Icon;
 export declare const Connectivity: Icon;
 export declare const Console: Icon;
 export declare const Contact: Icon;
