@@ -395,7 +395,6 @@ export * from './ThreeDffects';
 export * from './ThreeD';
 export * from './Ticket';
 export * from './Time';
-export * from './Tip';
 export * from './Tools';
 export * from './Tooltip';
 export * from './Train';

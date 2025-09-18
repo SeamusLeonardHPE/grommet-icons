@@ -1587,10 +1587,6 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Tip": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Tools": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],

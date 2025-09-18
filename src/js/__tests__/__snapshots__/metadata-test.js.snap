@@ -2750,13 +2750,6 @@ exports[`metadata 1`] = `
     "data",
     "time",
   ],
-  "Tip": [
-    "bubble",
-    "chat",
-    "messages",
-    "tooltip",
-    "tip",
-  ],
   "Tools": [
     "hammer",
     "mallet",

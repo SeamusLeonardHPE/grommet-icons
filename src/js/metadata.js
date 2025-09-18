@@ -396,7 +396,6 @@ export default {
   ThreeDEffects : ['3d', 'effects', 'render'],
   Ticket : ['cinema', 'concert', 'movie', 'travel', 'ticket'],
   Time : ['chart', 'line', 'data', 'time'],
-  Tip : ['bubble', 'chat', 'messages', 'tooltip', 'tip'],
   Tools : ['hammer', 'mallet', 'tools', 'tool'],
   Tooltip : ['bubble', 'chat', 'elipses', 'messages', 'tooltip'],
   Train : ['railroad', 'subway', 'transportation', 'travel', 'train'],

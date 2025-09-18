@@ -405,7 +405,6 @@ export declare const ThreeDffects: Icon;
 export declare const ThreeD: Icon;
 export declare const Ticket: Icon;
 export declare const Time: Icon;
-export declare const Tip: Icon;
 export declare const Tools: Icon;
 export declare const Tooltip: Icon;
 export declare const Train: Icon;
